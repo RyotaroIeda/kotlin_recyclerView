@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class RecyclerAdapter :RecyclerView.Adapter<ViewHolderItem>(){
-    private val animalList = listOf(
+    val animalList = listOf(
         "ライオン", "クマ", "キリン", "ゾウ", "パンダ", "まんこ", "翼", "コアラ", "さる", "ヒョウ", "うさぎ", "ゴリラ",
         "ライオン", "クマ", "キリン", "ゾウ", "パンダ", "まんこ", "翼", "コアラ", "さる", "ヒョウ", "うさぎ", "ゴリラ"
     )
